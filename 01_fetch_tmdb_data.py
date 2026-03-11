@@ -26,7 +26,7 @@ DISCOVERED_FILE = os.path.join(DATA_DIR, "01_tmdb_discovered_raw.jsonl")
 OUTPUT_FILE = os.path.join(DATA_DIR, "01_tmdb_details_fetched.jsonl")
 FAILED_FILE = os.path.join(DATA_DIR, "01_tmdb_failed_ids.json")
 
-MAX_PAGES_TO_DISCOVER = 1
+MAX_PAGES_TO_DISCOVER = 500
 DISCOVERY_SLEEP_TIME = 0.25
 MAX_WORKERS = 12
 
