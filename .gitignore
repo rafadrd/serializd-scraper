@@ -1,0 +1,11 @@
+# environment
+.env
+
+# data
+data/
+*.jsonl
+*.json
+
+# python
+__pycache__/
+.venv/
